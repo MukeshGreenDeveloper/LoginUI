@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".MainActivity2">
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:hint="adsfas"
+    app:boxBackgroundMode="filled"
+    app:boxBackgroundColor="@color/edit_field_color"
+    android:layout_height="wrap_content">
+    <EditText
+        android:textColor="@color/edit_field_color"
+        android:layout_width="match_parent"
+        android:textSize="12dp"
+        android:layout_height="wrap_content"/>
+</com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>

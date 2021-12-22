@@ -97,12 +97,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/email"
-                        app:boxBackgroundMode="none">
+                        app:boxBackgroundMode="filled"
+                        app:boxStrokeWidth="0dp"
+                        app:boxStrokeWidthFocused="0dp"
+                        app:boxBackgroundColor="@color/edit_field_color">
 
                         <EditText
                             style="@style/editTextTheme"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"/>
                     </com.google.android.material.textfield.TextInputLayout>
                 </LinearLayout>
 
@@ -123,13 +126,16 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="@string/password"
-                            app:boxBackgroundMode="none">
+                            app:boxBackgroundMode="filled"
+                            app:boxStrokeWidth="0dp"
+                            app:boxStrokeWidthFocused="0dp"
+                            app:boxBackgroundColor="@color/edit_field_color">
 
                             <EditText
                                 android:id="@+id/editTextPwd"
                                 style="@style/editTextTheme"
                                 android:layout_width="match_parent"
-                                android:layout_height="50dp"
+                                android:layout_height="wrap_content"
                                 android:background="@drawable/edit_text_selector"
                                 android:inputType="textPassword" />
                         </com.google.android.material.textfield.TextInputLayout>
